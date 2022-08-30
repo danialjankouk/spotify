@@ -2,6 +2,7 @@
     /*width: var(--sidenav-width);*/
     background-color: var(--sidenav-black);
     position: relative;
+    padding-top: 10px;
 }
 .Fixed{
     position: sticky;

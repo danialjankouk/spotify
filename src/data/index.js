@@ -135,7 +135,7 @@ export const PLAYLIST = [
     index: "2",
     type: "playlist",
     title: "Persian Essentials",
-    link: "Persian Essentials",
+    link: "PersianEssentials",
     imgUrl:
       "https://i.pinimg.com/736x/c4/c5/57/c4c557a8add3588a42b3b27e80df629b.jpg",
     hoverColor: "rgb(232, 24, 48)",
@@ -214,7 +214,7 @@ export const PLAYLIST = [
     index: "4",
     type: "playlist",
     title: "Blues & Jazz",
-    link: "Blues & Jazz",
+    link: "Blues&Jazz",
     imgUrl:
       "https://i.pinimg.com/564x/60/7e/70/607e70ed049311356500903f74fba0e2.jpg",
     hoverColor: "rgb(240, 56, 168)",

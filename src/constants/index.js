@@ -41,19 +41,19 @@ export const PLAYLISTBTN = [
 
 export const LIBRARYTABS = [
   {
-    title: 'Çalma Listeleri',
+    title: 'Library',
     path: '/library'
   },
   {
-    title: 'Podcast\'ler',
+    title: 'Podcast',
     path: '/library/podcasts'
   },
   {
-    title: 'Sanatçılar',
+    title: 'Aartists',
     path: '/library/artists'
   },
   {
-    title: 'Albümler',
+    title: 'Albums',
     path: '/library/albums'
   }
 ]
