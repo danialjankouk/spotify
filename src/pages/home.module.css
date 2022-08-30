@@ -35,6 +35,9 @@
 }
 .SectionTitle {
     margin-bottom: 22px;
+    color: #fff;
+    font-size: x-large;
+    font-weight: bold;
 }
 .SectionTitle h1,
 .SectionTitle h2{
