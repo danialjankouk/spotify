@@ -49,10 +49,6 @@ export const LIBRARYTABS = [
     path: '/library/podcasts'
   },
   {
-    title: 'Aartists',
-    path: '/library/artists'
-  },
-  {
     title: 'Albums',
     path: '/library/albums'
   }

@@ -11,7 +11,7 @@ const INITIAL_STATE = {
   },
   isPlaying: false
 };
-
+ 
 export const reducer = (state = INITIAL_STATE, action) => {
   switch (action.type) {
     case PLAYPAUSE:

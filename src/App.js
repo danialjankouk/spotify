@@ -5,6 +5,8 @@ import Home from "./pages/Home";
 import CONST from "./constants/index";
 import MobileNavigation from "./components/sidebar/mobile-navigation";
 import useWindowSize from "./hooks/useWindowSize";
+import Library, { AlbumTab } from "./pages/library";
+import { PodcastTab } from "./pages/library";
 //styles
 import styles from "../src/style/App.module.css";
 const App = () => {
@@ -14,6 +16,9 @@ const App = () => {
       {size.width > CONST.MOBILE_SIZE ? <Sidebar /> : <MobileNavigation />}
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/library" element={<Library />} />
+        <Route path="/library/podcasts" element={<PodcastTab />} />
+        <Route path="/library/albums" element={<AlbumTab/>} />
       </Routes>
     </div>
   );
