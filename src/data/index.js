@@ -1,13 +1,13 @@
 export const PLAYLIST = [
   {
     index: "0",
-    type: "albüm",
+    type: "album",
     title: "Zoozanaghe",
     link: "Zoozanaghe",
     imgUrl: "https://dlmusicmim.ir/zo/1.jpg",
-    hoverColor: "rgb(224, 112, 16)",
+    hoverColor: "#023047",
     artist: "Mehrad Hidden",
-    playlistBg: "rgb(224, 112, 16)",
+    playlistBg: "#023047",
     playlistData: [
       {
         index: "1",
@@ -98,9 +98,9 @@ export const PLAYLIST = [
     link: "Rammstein",
     imgUrl:
       "https://i.pinimg.com/736x/2a/76/b1/2a76b1b099179540b970184b9d411a14.jpg",
-    hoverColor: "rgb(216, 24, 40)",
+    hoverColor: "#e5e5e5",
     artist: "Rammstein",
-    playlistBg: "rgb(216, 24, 40)",
+    playlistBg: "#e5e5e5",
     playlistData: [
       {
         index: "1",
@@ -138,9 +138,9 @@ export const PLAYLIST = [
     link: "PersianEssentials",
     imgUrl:
       "https://i.pinimg.com/736x/c4/c5/57/c4c557a8add3588a42b3b27e80df629b.jpg",
-    hoverColor: "rgb(232, 24, 48)",
+    hoverColor: "#fca311",
     artist: "shamei zade , Martik",
-    playlistBg: "rgb(232, 24, 48)",
+    playlistBg: "#fca311",
     playlistData: [
       {
         index: "1",
@@ -177,9 +177,9 @@ export const PLAYLIST = [
     link: "dailymix1",
     imgUrl:
       "https://i.pinimg.com/736x/1e/34/d5/1e34d5e206e47ceb1d8a69ebd949e05c.jpg",
-    hoverColor: "rgb(192, 32, 40)",
+    hoverColor: "#83c5be",
     artist: "Metallica ,Mehraad Hidden ,Marilyn Manson",
-    playlistBg: "rgb(136, 8, 24)",
+    playlistBg: "#83c5be",
     playlistData: [
       {
         index: "1",
@@ -217,9 +217,9 @@ export const PLAYLIST = [
     link: "Blues&Jazz",
     imgUrl:
       "https://i.pinimg.com/564x/60/7e/70/607e70ed049311356500903f74fba0e2.jpg",
-    hoverColor: "rgb(240, 56, 168)",
+    hoverColor: "#495057",
     artist: "John Lennon ,Michael Buble ,B.B. King",
-    playlistBg: "rgb(240, 56, 168)",
+    playlistBg: "#495057",
     playlistData: [
       {
         index: "1",
@@ -252,14 +252,14 @@ export const PLAYLIST = [
   },
   {
     index: "5",
-    type: "albüm",
+    type: "album",
     title: "Starboy",
     link: "Starboy",
     imgUrl:
       "https://sirenmusic.xyz/wp-content/uploads/2016/11/7c5e1c8fc5ad147a6bc2a36186332f19.jpg.webp",
-    hoverColor: "rgb(160, 24, 32)",
+    hoverColor: "#ea3546",
     artist: "The Weeknd",
-    playlistBg: "rgb(160, 24, 32)",
+    playlistBg: "#ea3546",
     playlistData: [
       {
         index: "1",
@@ -297,9 +297,9 @@ export const PLAYLIST = [
     link: "dailymix2",
     imgUrl:
       "https://dailymix-images.scdn.co/v2/img/04cd9bccf59e8061f13e779d1001975a60fb837a/2/tr/default",
-    hoverColor: "rgb(136, 152, 152)",
+    hoverColor: "#e6beae",
     artist: "Miley Cyrus ,Rihanna ,Harry Styles",
-    playlistBg: "rgb(136, 152, 152)",
+    playlistBg: "#e6beae",
     playlistData: [
       {
         index: "1",
@@ -337,9 +337,9 @@ export const PLAYLIST = [
     link: "dailymix3",
     imgUrl:
       "https://dailymix-images.scdn.co/v2/img/c23701238e46876969ea3b694e9b42b8db133b91/3/tr/default",
-    hoverColor: "rgb(83, 83, 83)",
+    hoverColor: "#cbf3f0",
     artist: "Metallica, Billie Eilish, Alan Walker",
-    playlistBg: "rgb(83, 83, 83)",
+    playlistBg: "#cbf3f0",
     playlistData: [
       {
         index: "1",
@@ -375,10 +375,11 @@ export const PLAYLIST = [
     type: "podcast",
     title: "summer hour",
     link: "English coffee",
-    imgUrl: "https://i.pinimg.com/736x/11/3b/ee/113bee40382a21224537e38ef506b21c.jpg",
-    hoverColor: "rgb(83, 83, 83)",
+    imgUrl:
+      "https://i.pinimg.com/736x/11/3b/ee/113bee40382a21224537e38ef506b21c.jpg",
+    hoverColor: "#e5e5e5",
     artist: "English coffee",
-    playlistBg: "rgb(83, 83, 83)",
+    playlistBg: "#e5e5e5",
     playlistData: [
       {
         index: "1",
@@ -398,9 +399,9 @@ export const PLAYLIST = [
     link: "chill",
     imgUrl:
       "https://i.pinimg.com/564x/3f/7f/15/3f7f155aaff9515ab5c3af722166ec6c.jpg",
-    hoverColor: "rgb(240, 144, 184)",
+    hoverColor: "#e63946",
     artist: "Ghostly Kisses ,Syml ,The Weekend",
-    playlistBg: "rgb(240, 144, 184)",
+    playlistBg: "#e63946",
     playlistData: [
       {
         index: "1",

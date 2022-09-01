@@ -8,6 +8,7 @@ import useWindowSize from "./hooks/useWindowSize";
 import Library, { AlbumTab } from "./pages/library";
 import { PodcastTab } from "./pages/library";
 import Search from "./pages/search";
+import PlaylistPage from "./pages/playlist"
 //styles
 import styles from "../src/style/App.module.css";
 const App = () => {
@@ -20,7 +21,8 @@ const App = () => {
         <Route path="/library" element={<Library />} />
         <Route path="/library/podcasts" element={<PodcastTab />} />
         <Route path="/library/albums" element={<AlbumTab />} />
-        <Route path="/search" element={<Search/>} />
+        <Route path="/search" element={<Search />} />
+        <Route path="/playlist/:path" element={<PlaylistPage/>} />
       </Routes>
     </div>
   );

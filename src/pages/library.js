@@ -51,7 +51,7 @@ export function AlbumTab() {
       <Topnav tabButtons={true} />
       <p className={styles.titles}>Albums</p>
       <div className={styles.Grid}>
-        {PLAYLIST.filter((item) => item.type === "albüm").map((item) => {
+        {PLAYLIST.filter((item) => item.type === "album").map((item) => {
           return <PlaylistCardM key={item.title} data={item} />;
         })}
       </div>
