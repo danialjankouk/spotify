@@ -452,7 +452,7 @@ export const SEARCHCARDS = [
   {
     bgcolor: "rgb(160, 195, 210)",
     imgurl: "https://t.scdn.co/images/68433b0ee5b5465b8e926c42b84cbcdb.jpeg",
-    title: "Senin için Hazırlandı",
+    title: "Daily Mix",
   },
   {
     bgcolor: "rgb(75, 145, 125)",
@@ -477,7 +477,7 @@ export const SEARCHCARDS = [
   {
     bgcolor: "rgb(160, 195, 210)",
     imgurl: "https://t.scdn.co/images/0f2f4c71c9714cc5b757f7bb3559fcdb.jpeg",
-    title: "Caz",
+    title: "Jazz",
   },
   {
     bgcolor: "rgb(245, 155, 35)",
@@ -487,17 +487,17 @@ export const SEARCHCARDS = [
   {
     bgcolor: "rgb(160, 195, 210)",
     imgurl: "https://t.scdn.co/images/acc7b5d7b1264d0593ec05c020d0a689.jpeg",
-    title: "Yeni Çıkanlar",
+    title: "New Music",
   },
   {
     bgcolor: "rgb(245, 155, 35)",
     imgurl: "https://t.scdn.co/images/ad4d5c268a214f78920517e76e6ed107.jpeg",
-    title: "Popcast'ler",
+    title: "R&B",
   },
   {
     bgcolor: "rgb(180, 155, 200)",
     imgurl: "https://t.scdn.co/images/d0fb2ab104dc4846bdc56d72b0b0d785.jpeg",
-    title: "Keşfet",
+    title: "Discover",
   },
   {
     bgcolor: "rgb(255, 100, 55)",
@@ -507,12 +507,12 @@ export const SEARCHCARDS = [
   {
     bgcolor: "rgb(80, 155, 245)",
     imgurl: "https://t.scdn.co/images/baf681efc57145e180589e027496b101.jpeg",
-    title: "Ruh Hali",
+    title: "Happy Hits",
   },
   {
     bgcolor: "rgb(245, 155, 35)",
     imgurl: "https://t.scdn.co/images/194b9d722de34cefb3b716c653b4526b.png",
-    title: "Evde",
+    title: "Work",
   },
   {
     bgcolor: "rgb(160, 195, 210)",
@@ -522,6 +522,6 @@ export const SEARCHCARDS = [
   {
     bgcolor: "rgb(180, 155, 200)",
     imgurl: "https://t.scdn.co/images/cf23ab0343e047daa88703e21c01a4aa.jpeg",
-    title: "Odaklan",
+    title: "Piano",
   },
 ];

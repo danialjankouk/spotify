@@ -5,6 +5,11 @@
     border: none;
     border-radius: 8px;
 }
+.text{
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: x-large;
+}
 .SearchCardBox::after {
     content: "";
     display: block;
@@ -13,6 +18,7 @@
 .SearchCard{
     position: absolute;
     width: 100%;
+    cursor: pointer;
     height: 100%;
     background: -webkit-gradient(linear,left bottom,left top,from(transparent),to(rgba(0,0,0,.4)));
     background: linear-gradient(0deg,transparent,rgba(0,0,0,.4));
