@@ -8,11 +8,12 @@ import useWindowSize from "./hooks/useWindowSize";
 import Library, { AlbumTab } from "./pages/library";
 import { PodcastTab } from "./pages/library";
 import Search from "./pages/search";
-import PlaylistPage from "./pages/playlist"
+import PlaylistPage from "./pages/playlist";
+import Footer from "./components/footer/footer";
 //styles
 import styles from "../src/style/App.module.css";
 const App = () => {
-   const size = useWindowSize();
+  const size = useWindowSize();
   return (
     <div className={styles.layout}>
       {size.width > CONST.MOBILE_SIZE ? <Sidebar /> : <MobileNavigation />}
@@ -22,8 +23,9 @@ const App = () => {
         <Route path="/library/podcasts" element={<PodcastTab />} />
         <Route path="/library/albums" element={<AlbumTab />} />
         <Route path="/search" element={<Search />} />
-        <Route path="/playlist/:path" element={<PlaylistPage/>} />
+        <Route path="/playlist/:path" element={<PlaylistPage />} />
       </Routes>
+      <Footer />
     </div>
   );
 };
